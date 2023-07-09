@@ -6,7 +6,7 @@ body {
 header {
     background-image: url('/images/banner/banner1.png');
     background-repeat: no-repeat;
-    width: 100%;
+    width: 100vmax;
     margin-bottom: 140px;
 }
 
@@ -59,8 +59,15 @@ header {
     border-radius: 724px; */
 }
 
-.about-image {
+.about-div {
+    border-radius: 527.929px;
+    background: rgba(241, 91, 34, 0.20);
     margin-right: 87px;
+}
+
+.about-image {
+    margin-top: -130px;
+
 }
 
 .about-title {
